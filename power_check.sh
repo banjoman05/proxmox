@@ -12,5 +12,6 @@ then
 echo `date` >> $FILE_LOCATION 
 echo "Powered down due to battery status">>$FILE_LOCATION       
 echo $BATTINFO >> $FILE_LOCATION
+echo "##########"
 /usr/sbin/shutdown -h now
 fi
