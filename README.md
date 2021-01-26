@@ -6,5 +6,6 @@ acpi
 cron
 
 Crontab example entry:
-* * * * * /root/bin/power_check.sh  >/dev/null 2>&1
+
+```* * * * * /root/bin/power_check.sh  >/dev/null 2>&1```
 
