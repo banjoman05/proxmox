@@ -3,7 +3,7 @@
 # Quick script to handle automatic powerdown on battery power
 
 BATTINFO=`acpi -b`
-CRITICAL_PERCENTAGE=91
+CRITICAL_PERCENTAGE=21
 FILE_LOCATION="/root/LOW_BATTERY"
 
 echo $BATTINFO
